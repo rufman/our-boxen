@@ -13,6 +13,20 @@
   :datadir: "%{::boxen_home}/repo/hiera"
 :hierarchy:
   - "users/%{github_login}"
+  - "users/%{::github_login}/nodes/%{::hostname}"
+  - "users/%{::github_login}/nodes/common"
+  - "users/%{::github_login}"
+  - "projects/%{::boxen_project_01}"
+  - "projects/%{::boxen_project_02}"
+  - "projects/%{::boxen_project_03}"
+  - "projects/%{::boxen_project_04}"
+  - "projects/%{::boxen_project_05}"
+  - "projects/%{::boxen_project_06}"
+  - "projects/%{::boxen_project_07}"
+  - "projects/%{::boxen_project_08}"
+  - "projects/%{::boxen_project_09}"
+  - "projects/%{::boxen_project_10}"
+  - "projects/common"
   - common
 
 # Many modules make their own hiera data available through the use of

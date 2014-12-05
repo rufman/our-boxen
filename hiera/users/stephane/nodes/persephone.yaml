@@ -1,0 +1,5 @@
+---
+boxen::security::require_password: true
+people::stephane::system_roles:
+  - work
+  - home

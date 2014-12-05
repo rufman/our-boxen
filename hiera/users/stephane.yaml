@@ -1,0 +1,46 @@
+# "Sublime" is not in the name and alphabetized to make it easier to track
+sublime_text::packages:
+  'BracketHighlighter':
+    source: 'facelessuser/BracketHighlighter'
+  'CheckBounce':  # Spellchecking
+    source: 'phyllisstein/CheckBounce'
+  'CodeIntel':    # code intelligence and smart autocomplete engine
+    source: 'SublimeCodeIntel/SublimeCodeIntel'
+  'CSScomb':
+    source: 'csscomb/csscomb-for-sublime'
+  'Emmet':
+    source: 'sergeche/emmet-sublime'
+  'Git':
+    source: 'kemayo/sublime-text-git'
+  'GitGutter':
+    source: 'jisaacks/GitGutter'
+#  'Google Spell Check':
+#    source: 'noahcoad/google-spell-check'  # does not yet work with "pure" git checkout
+  'Linter':
+    source: 'SublimeLinter/SublimeLinter'
+  'Markdown-Preview':
+    source: 'revolunet/sublimetext-markdown-preview'
+  'Package Control':
+    source: 'wbond/sublime_package_control'
+  'PrettyJson':
+    source: 'dzhibas/SublimePrettyJson'
+  'Puppet':
+    source: 'russCloak/SublimePuppet'
+  'REPL':
+    source: 'wuub/SublimeREPL'
+  'Sass':
+    source: 'nathos/sass-textmate-bundle'
+  'SideBarEnhancements':
+    source: 'titoBouzout/SideBarEnhancements'
+  'Sublime Linter':
+    source: 'SublimeLinter/SublimeLinter'
+  'SublimePythonIDE':
+    source: 'JulianEberius/SublimePythonIDE'
+  'sublime_alignment'
+    source: 'wbond/sublime_alignment'
+  'sublime-better-coffeescript'
+    source: 'aponxi/sublime-better-coffeescript'
+  'Colorsublime'
+    source: 'Colorsublime/Colorsublime-Plugin'
+  'SideBarFolders'
+    source: 'SublimeText/SideBarFolders'
